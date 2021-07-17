@@ -34,6 +34,7 @@ public class Variables {
            
        // var  - Inferencia de tipos de datos en Java
        
+       /*
        var miVariable = 25;
        
        System.out.println(miVariable);
@@ -41,6 +42,16 @@ public class Variables {
        var miVariableTextos = "PruebaTexto";
        
        System.out.println(miVariableTextos);
+       */
+       
+       // Reglas variables
+       /*
+            sin numeros o caracteres especiales al inicio
+            no utilizar acentos
+            por convención la primer letra en minuscula
+            se puede utilizar guion bajo y signo pesos
+       */
+       
        
        
    } 
