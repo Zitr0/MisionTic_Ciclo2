@@ -49,6 +49,47 @@ public class TiposPrimitivos {
         System.out.println("Valor minimo " + Double.MIN_VALUE);
         System.out.println("Valor Maximo " + Double.MAX_VALUE);
         
+        /*
+            Tipo Char  un solo caracter
+        */
+        
+        char miCaracter = 'a';
+        System.out.println("miCaracter = " + miCaracter);
+        
+        char variableChar = '\u0021';
+        System.out.println("variableChar = " + variableChar);
+        
+        char variableCharDecimal = 33;
+        System.out.println("variableCharDecimal = " + variableCharDecimal);
+        
+        char variableCharSimbolo = '!';
+        System.out.println("variableCharSimbolo = " + variableCharSimbolo);
+        
+        /*
+            Booleanos  true o false
+        */
+        
+        boolean variableBoolean = true;
+        System.out.println("variableBoolean = " + variableBoolean);
+        
+        if(variableBoolean == false){
+            System.out.println("La variable booleana es falsa y el valor es " + variableBoolean);
+        }
+        else{
+            System.out.println("La variable booleana es verdadera y el valor es " + variableBoolean);
+        }
+        
+        
+        int edad = 20;
+        boolean esAdulto = edad >= 18;
+        
+        if (esAdulto){
+            System.out.println("Es mayor de edad");
+        }
+        else{
+            System.out.println("Es menor de edad");
+        }
+        
     }
     
 }
