@@ -11,4 +11,9 @@ package semana3;
  */
 public class Profesor extends Persona{
     
+    private string escalafon;
+    
+    
+    
+    
 }

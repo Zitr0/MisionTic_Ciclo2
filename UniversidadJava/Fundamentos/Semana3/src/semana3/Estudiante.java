@@ -11,5 +11,7 @@ package semana3;
  */
 public class Estudiante extends Persona{
     
+    private int semestre;
+    
     
 }
